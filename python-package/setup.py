@@ -33,8 +33,5 @@ setup(name='xgboost',
       maintainer_email='phunter.lau@gmail.com',
       zip_safe=False,
       packages=find_packages(),
-      # this will use MANIFEST.in during install where we specify additional files,
-      # this is the golden line
-      include_package_data=True,
       data_files=[('xgboost', LIB_PATH)],
       url='https://github.com/dmlc/xgboost')
